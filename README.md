@@ -45,7 +45,7 @@ python3 -m http.server 5500
 Abre http://localhost:5500. En DevTools revisa Console y Network. La solicitud `application/json` normalmente provoca un preflight OPTIONS antes del POST. n8n debe permitir `http://localhost:5500` y `http://127.0.0.1:5500`, además del origen Pages.
 
 ## Publicar en GitHub Pages
-1. Crea el repositorio público `alonsoGF/webapp-automatizacion-ia`.
+1. Crea el repositorio público `l24200197-commits/webapp-automatizacion-ia`.
 2. Revisa que no haya secretos.
 3. Ejecuta `git init`, commit y push a la rama `main`.
 4. En GitHub: Settings → Pages → Deploy from a branch → `main` → `/(root)`.
